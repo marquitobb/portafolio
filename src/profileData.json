@@ -10,35 +10,36 @@
 	
 	},
 	"experience": [
+		
 		{
-				"position": "GitHub Campus Expert",
-				"organization": "GitHub",
-				"aboutWork": "Responsible for building the on campus community with the support of GitHub.",
-				"fromDate": "August 2018",
-				"toDate": "Present"
+			"position": "desarrollador web (servicio social)",
+			"organization": "complejo administrativo de colima",
+			"aboutWork": " estuve desarrollando páginas web para el gobierno de colima en PHP con su framework codeigniter",
+			"fromDate": "enero 2019",
+			"toDate": "mayo 2019"
 		},
 		{
-			"position": "Opensource Developer Intern",
-			"organization": "Fossasia",
-			"aboutWork": "Contributing to Fossasia's open event server and frontend as an intern. Resolved numerous bugs and added new features to the eventyay platform.",
-			"fromDate": "June 2019",
-			"toDate": "Present"
+			"position": "desarrollador movil",
+			"organization": "Chofer pro",
+			"aboutWork": "fui contratado para hacer aplicaciones móviles desarrolladas con java para android y también rest api desarrolladas en php para consumir tanto móviles como web.",
+			"fromDate": "junio - julio 2019",
+			"toDate": "julio 2019"
 		},
 		{
-			"position": "Software Developer Intern",
-			"organization": "Hasura",
-			"aboutWork": "Worked on Hasura's GraphQL engine and added new features in it.",
-			"fromDate": "December 2018",
-			"toDate": "January 2019"
+			"position": "desarrollador móvil y web",
+			"organization": "freelancer",
+			"aboutWork": "actualmente me encuentro terminando mi carrera en la ing. sistemas computacionales y trabajando como freelancer en proyectos locales como en proyectos remotos en la app de “upwork”, desarrollando puntos de ventas para empresas colimenses como páginas web para registro de inventarios y apps e-commerce.",
+			"fromDate": "enero 2020",
+			"toDate": "presente"
 		}
 	],
 	"education": [{
-			"university": "Indian Institute of Information Technology Allahabad",
-			"degree": "Bachelor of Technology",
-			"gpa": "12.34",
-			"fromDate": "August 2016",
-			"toDate": "Present"
-		}
+			"university": "Instituto Tecnológico de Colima",
+			"degree": "Ingeniería en sistemas computacionales",
+			"gpa": "15460608",
+			"fromDate": "agosto 2015",
+			"toDate": "junio 2020"
+	}
 	],
 	"skills": [{
 			"name": "HTML5"

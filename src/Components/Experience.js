@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from 'react';
 
 class Experience extends Component {
@@ -11,7 +12,7 @@ class Experience extends Component {
     return(
       <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Experiencia</h2>
           {
             this.experience.map((exp, index) => (
               <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -21,7 +22,8 @@ class Experience extends Component {
                   <p>{exp.aboutWork}</p>
                 </div>
                 <div className="resume-date text-md-right">
-                  <span className="text-primary">{exp.fromDate} - {exp.toDate}</span>
+                  <span className="text-primary">{exp.fromDate} - {exp.toDate}</span>                  
+                  <img width="250px" height="250px" src={exp.imagen} />
                 </div>
               </div>
             ))

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import { faCheckCircle} from "@fortawesome/free-solid-svg-icons";
 
 
 class Skills extends Component {
@@ -14,8 +14,8 @@ class Skills extends Component {
     return(
       <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
         <div className="w-100">
-          <h2 className="mb-5">Skills</h2>
-          <div className="subheading mb-3">Programming Languages &amp; Tools</div>
+          <h2 className="mb-5">Herramientas</h2>
+          <div className="subheading mb-3">lenguajes de programacion &amp; Herramientas</div>
           <div className="row">
           {
             this.skills.map((data, index) => (

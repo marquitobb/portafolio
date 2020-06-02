@@ -3,34 +3,39 @@
 		"firstName": "Marco",
 		"lastName": "cobian",
 		"phoneNumber": "312-138-5579",
-		"bio": "soy un desarrollador full stack  jr que adoro programar, desde el 2013 que entre al bachillerato comencé a programar y ya tengo un poco más de 7 años en este mundo de la programación y en todo ese transcurso he desarrollado proyectos en diferentes lenguajes y con diferentes propósitos como son de domótica, paginas web comerciales, apps en android, puntos de ventas para pc de escritorio en java, entre otras que se ven más adelante…. y en el tiempo que tengo programando he usados varios lenguajes y me atrevo a decir que no tengo ningún lenguaje que odie como e visto en varios caso de colegas pero si tengo lenguajes favoritos como lo es javascript ya que es un lenguaje que e usado mucho para diferentes proyectos y me encanta pero cualquier lenguaje estoy dispuesto a usar sin complicaciones.",
+		"bio": "Soy un desarrollador full stack  jr que adoro programar, desde el 2013 que entre al bachillerato comencé a programar y actualmente me falta solo mi residencia para titularme de la ing.Sistemas y ya tengo un poco más de 7 años en este mundo de la programación y en todo ese transcurso he desarrollado proyectos en diferentes lenguajes y con diferentes propósitos como son de domótica, paginas web comerciales, apps en android, puntos de ventas para pc de escritorio en java, entre otras que se ven más adelante…. y en el tiempo que tengo programando he usados varios lenguajes, frameworks y librerías ya que trato de aprender todo lo que pueda por que no se que usen en la empresa que logre entrar. y me atrevo a decir que no tengo ningún lenguaje que odie como he visto en varios casos de colegas. Pero si tengo lenguajes favoritos como lo es javascript ya que es un lenguaje que e usado mucho para diferentes proyectos y me encanta pero cualquier lenguaje estoy dispuesto a usar sin complicaciones y en conclusión me atrevo a decir que tengo bien desarrollada mi lógica para resolver problemas.",
     	"email": "maca9608@gmail.com",
     	"linkedin": "https://www.linkedin.com/in/marco-antonio-cobi%C3%A1n-avalos-92466a184/",
-		"github": "https://github.com/marquitobb"
+		"github": "https://github.com/marquitobb",
+		"instagram": "https://www.instagram.com/marco.cobian96/",
+		"youtube": "https://www.youtube.com/user/maca9608"
 	
 	},
 	"experience": [
 		
 		{
-			"position": "desarrollador web (servicio social)",
+			"position": "Desarrollador web (servicio social)",
 			"organization": "complejo administrativo de colima",
 			"aboutWork": " estuve desarrollando páginas web para el gobierno de colima en PHP con su framework codeigniter",
 			"fromDate": "enero 2019",
-			"toDate": "mayo 2019"
+			"toDate": "mayo 2019",
+			"imagen":"https://seeklogo.com/images/C/colima-gobierno-logo-2E248E4B51-seeklogo.com.png"
 		},
 		{
-			"position": "desarrollador movil",
+			"position": "Desarrollador movil",
 			"organization": "Chofer pro",
-			"aboutWork": "fui contratado para hacer aplicaciones móviles desarrolladas con java para android y también rest api desarrolladas en php para consumir tanto móviles como web.",
+			"aboutWork": "Fui contratado para hacer aplicaciones móviles desarrolladas con java para android y también rest api desarrolladas en php para consumir tanto móviles como web, una vez que pase el (examen para entrar) que era desarrollar una app sencilla con servicio de mapas. Pero estuve un periodo corto ya que solo fue durante las vacaciones de junio porque aún tenía que volver a la escuela y estuve integrado en un proyecto para una empresa colimense, la cual aprendí un poco mas de como trabajar en equipo con herramientas como “GIT” ya que es un control de versiones que desde que salio lo he usado en todos mis proyectos y también “slack” para comunicación de equipo y todo bajo la metodología de “SCRUM” ya que dejaban tareas en un tablero como “trello” y las teníamos que completar, y esa fue parte de mi experiencia.",
 			"fromDate": "junio - julio 2019",
-			"toDate": "julio 2019"
+			"toDate": "julio 2019",
+			"imagen": "https://firebasestorage.googleapis.com/v0/b/deploy-react-8cb9c.appspot.com/o/mc%2Fcontrato.jpg?alt=media&token=1b85a135-4bef-47b9-b86e-251bb1907812"
 		},
 		{
 			"position": "desarrollador móvil y web",
-			"organization": "freelancer",
-			"aboutWork": "actualmente me encuentro terminando mi carrera en la ing. sistemas computacionales y trabajando como freelancer en proyectos locales como en proyectos remotos en la app de “upwork”, desarrollando puntos de ventas para empresas colimenses como páginas web para registro de inventarios y apps e-commerce.",
+			"organization": "Freelancer",
+			"aboutWork": "Actualmente me encuentro terminando mi carrera en la ing. sistemas computacionales a falta de mi residencia profesional para titularse, ya con mis materias concluidas y trabajando como freelancer en proyectos locales como en proyectos remotos en la app de “upwork”, desarrollando puntos de ventas para empresas colimenses como páginas web para registro de inventarios y apps e-commerce.",
 			"fromDate": "enero 2020",
-			"toDate": "presente"
+			"toDate": "presente",
+			"imagen":"https://i.pinimg.com/originals/6b/5b/b0/6b5bb0db4a1dd7fe7568ddc0ff4afdb6.png"
 		}
 	],
 	"education": [{
@@ -42,28 +47,52 @@
 	}
 	],
 	"skills": [{
-			"name": "HTML5"
-		},
-		{
-			"name": "CSS3"
-		},
+			"name": "HTML5 CSS3"
+		},		
 		{
 			"name": "Javascript"
 		},
 		{
-			"name": "React"
+			"name": "PHP"
 		},
 		{
-			"name": "Nodejs"
+			"name": "Codeigniter"
+		},
+		{
+			"name": "JAVA"
 		},
 		{
 			"name": "Python"
 		},
 		{
-			"name": "Django"
+			"name": "Reactjs"
 		},
 		{
-			"name": "Ember"
+			"name": "Nodejs"			
+		},		
+		{
+			"name": "c++"
+		},
+		{
+			"name": "MYSQL"
+		},
+		{
+			"name": "SQL server"
+		},
+		{
+			"name": "Mongodb"
+		},
+		{
+			"name": "redis"
+		},
+		{
+			"name": "GIT"
+		},		
+		{
+			"name": "android studio (JAVA)"
+		},						
+		{
+			"name": "Flutter (dart)"
 		}
 	],
 	"interests": {

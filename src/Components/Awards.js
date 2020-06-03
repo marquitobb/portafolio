@@ -7,6 +7,7 @@ import Carro from "../proyectos/carro";
 import carro1 from '../Assets/carrojap2/uno.jpg';
 import pv1 from '../Assets/punto de venta/dospv.png';
 import Hieli1 from '../Assets/Hielipau/hieli1.png';
+import PuntoVenta from '../proyectos/puntoVenta';
 
 
 class Awards extends React.Component{
@@ -29,7 +30,7 @@ class Awards extends React.Component{
       return <Carro />
     }
     if (parseInt(this.state.status)===2) {
-      return <h1>todavia no disponible</h1>
+      return <PuntoVenta />
     } else {
       return(
         <div className="container">

@@ -1,10 +1,13 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //import { faGithub, faLinkedin, faInstagram,  faYoutube} from "@fortawesome/free-brands-svg-icons";
 import { faRedoAlt} from "@fortawesome/free-solid-svg-icons";
+import hieli1 from "../Assets/Hielipau/hieli1.png";
+import logo from "../Assets/Hielipau/hielipaulogo.png";
 
-class Carro extends React.Component {
+class Hielipau extends React.Component {
     constructor(props) {
         super(props);
         this.state={
@@ -26,7 +29,7 @@ class Carro extends React.Component {
                 {/* Post Content Column */}
                 <div className="col-lg-8">
                 {/* Title */}
-                <h1 className="mt-4">Post Title</h1>
+                <h1 className="mt-4">Hielipau Inventario</h1>
                 {/* Author */}
                 <p className="lead">
                     by
@@ -35,7 +38,7 @@ class Carro extends React.Component {
                 <hr />                
                 <img
                     className="img-fluid rounded"
-                    src="http://placehold.it/900x300"
+                    src={hieli1}
                     alt=""
                 />
                 <hr />
@@ -46,6 +49,10 @@ class Carro extends React.Component {
                     quibusdam sit excepturi nam quia corporis eligendi eos magni
                     recusandae laborum minus inventore?
                 </p>
+                <hr/>
+                <h4>video ya usando el software nuestro cliente</h4>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NpmUDyFTGtM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <hr/>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut,
                     tenetur natus doloremque laborum quos iste ipsum rerum obcaecati
@@ -133,17 +140,13 @@ class Carro extends React.Component {
                 <div className="card my-4">
                     <h5 className="card-header">clientes</h5>
                     <div className="card-body">
-                        <img
-                            className="img-fluid rounded"
-                            src="http://placehold.it/900x300"
-                            alt=""
-                        />
-                        <hr></hr>
-                        <img
-                            className="img-fluid rounded"
-                            src="http://placehold.it/900x300"
-                            alt=""
-                        />
+                        <a href="https://www.instagram.com/hielipau/">
+                            <img
+                                className="img-fluid rounded"
+                                src={logo}
+                                alt=""
+                            />                        
+                        </a>
                     </div>
                 </div>
                 </div>
@@ -154,4 +157,4 @@ class Carro extends React.Component {
     }
 }
 
-export default Carro;
+export default Hielipau;

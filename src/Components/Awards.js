@@ -3,11 +3,12 @@ import React from 'react';
 //import { faAward } from "@fortawesome/free-solid-svg-icons";
 //proyects
 import Carro from "../proyectos/carro";
+import PuntoVenta from '../proyectos/puntoVenta';
+import Hielipau from '../proyectos/Heilipau';
 //assests of the proyects
 import carro1 from '../Assets/carrojap2/uno.jpg';
 import pv1 from '../Assets/punto de venta/dospv.png';
-import Hieli1 from '../Assets/Hielipau/hieli1.png';
-import PuntoVenta from '../proyectos/puntoVenta';
+import Hieli1 from '../Assets/Hielipau/hielipaulogo.png';
 
 
 class Awards extends React.Component{
@@ -31,7 +32,11 @@ class Awards extends React.Component{
     }
     if (parseInt(this.state.status)===2) {
       return <PuntoVenta />
-    } else {
+    } 
+    if (parseInt(this.state.status)===0) {
+      return <Hielipau />
+    }     
+    else {
       return(
         <div className="container">
           <h2 className="mb-5">Proyectos</h2>
@@ -62,7 +67,7 @@ class Awards extends React.Component{
                 <div className="card-body">
                   <h5 className="card-title">Hielipau Inventario</h5>
                   <p className="card-text">Esta es una pagina web para llevar un invetario y guardar ventas de una pequeña tienda colimense</p>
-                  <button onClick={() => this.handleStatus(2)} className="btn btn-primary">ver</button>
+                  <button onClick={() => this.handleStatus(3)} className="btn btn-primary">ver</button>
                 </div>
               </div>
             </div>
@@ -131,15 +136,5 @@ class Awards extends React.Component{
 
 
 }
-
-/*const Awards = () => (
-    <BrowserRouter>    
-      <Switch>
-          <Route exact path="/" component={Proyectos} />                          
-          <Route exact path="/carro" component={Carro} />                          
-          <Route component={NotFound} />
-      </Switch>
-    </BrowserRouter>
-)*/
 
 export default Awards;

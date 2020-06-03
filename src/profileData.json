@@ -3,8 +3,9 @@
 		"firstName": "Marco",
 		"lastName": "cobian",
 		"phoneNumber": "312-138-5579",
-		"bio": "Soy un desarrollador full stack  jr que adoro programar, desde el 2013 que entre al bachillerato comencé a programar y actualmente me falta solo mi residencia para titularme de la ing.Sistemas y ya tengo un poco más de 7 años en este mundo de la programación y en todo ese transcurso he desarrollado proyectos en diferentes lenguajes y con diferentes propósitos como son de domótica, paginas web comerciales, apps en android, puntos de ventas para pc de escritorio en java, entre otras que se ven más adelante…. y en el tiempo que tengo programando he usados varios lenguajes, frameworks y librerías ya que trato de aprender todo lo que pueda por que no se que usen en la empresa que logre entrar. y me atrevo a decir que no tengo ningún lenguaje que odie como he visto en varios casos de colegas. Pero si tengo lenguajes favoritos como lo es javascript ya que es un lenguaje que e usado mucho para diferentes proyectos y me encanta pero cualquier lenguaje estoy dispuesto a usar sin complicaciones y en conclusión me atrevo a decir que tengo bien desarrollada mi lógica para resolver problemas.",
-    	"email": "maca9608@gmail.com",
+		"bio": "Soy un desarrollador full stack  jr que adoro programar, desde el 2013 que entre al bachillerato comencé a programar y actualmente me falta solo mi residencia para titularme de la ing.Sistemas y ya tengo un poco más de 7 años en este mundo de la programación y en todo ese transcurso he desarrollado proyectos en diferentes lenguajes y con diferentes propósitos como son de domótica, paginas web comerciales, apps en android, puntos de ventas para pc de escritorio en java, entre otras que se ven más adelante…. ",
+		"bio2": "En el tiempo que tengo programando he usados varios lenguajes, frameworks y librerías ya que trato de aprender todo lo que pueda por que no se que usen en la empresa que logre entrar. y me atrevo a decir que no tengo ningún lenguaje que odie como he visto en varios casos de colegas. Pero si tengo lenguajes favoritos como lo es javascript ya que es un lenguaje que e usado mucho para diferentes proyectos y me encanta pero cualquier lenguaje estoy dispuesto a usar sin complicaciones y en conclusión me atrevo a decir que tengo bien desarrollada mi lógica para resolver problemas.",
+		"email": "maca9608@gmail.com",
     	"linkedin": "https://www.linkedin.com/in/marco-antonio-cobi%C3%A1n-avalos-92466a184/",
 		"github": "https://github.com/marquitobb",
 		"instagram": "https://www.instagram.com/marco.cobian96/",
@@ -41,7 +42,7 @@
 	"education": [{
 			"university": "Instituto Tecnológico de Colima",
 			"degree": "Ingeniería en sistemas computacionales",
-			"gpa": "15460608",
+			"gpa": "Me encuentro finalizando mi carrera en la Ingenieria de sistemas computacionales a falta de titularme por medio de la residencia en alguna empresa",
 			"fromDate": "agosto 2015",
 			"toDate": "junio 2020"
 	}

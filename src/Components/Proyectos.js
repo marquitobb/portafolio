@@ -1,6 +1,7 @@
 import React from 'react';
 import Carro from "../proyectos/carro";
 import carro1 from '../Assets/carrojap2/uno.jpg';
+import pv1 from '../Assets/punto de venta/dospv.png';
 
 class Proyectos extends React.Component{
     constructor(props) {
@@ -40,10 +41,10 @@ class Proyectos extends React.Component{
                 </div>
                 <div className="col mb-4">
                   <div className="card">
-                    <img src="..." className="card-img-top" alt="..." />
+                    <img src={pv1} className="card-img-top" alt="..." />
                     <div className="card-body">
                       <h5 className="card-title">Punto de Venta</h5>
-                      <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                  
+                      <p className="card-text">Este proyecto es uno de los que mas se a vendido ya que es un punto de venta pequeño y facil de usar para diferentes tipos de negocios</p>                  
                       <button onClick={() => this.handleStatus(2)} className="btn btn-primary">ver</button>
                     </div>
                   </div>

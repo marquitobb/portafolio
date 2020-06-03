@@ -22,6 +22,9 @@ class Education extends Component {
                 </div>
                 <div className="resume-date text-md-right">
                   <span className="text-primary">{data.fromDate} - {data.toDate}</span>
+                  <br></br>
+                  <br></br>
+                  <img width="250px" height="150px" src={data.imagen} alt='...' />
                 </div>
               </div>
             ))

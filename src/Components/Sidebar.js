@@ -2,12 +2,15 @@ import React, { Component } from 'react';
 //import image from '../Assets/mc.jpg';
 import image from '../Assets/jeje.png';
 
+
 class Sidebar extends Component {
   constructor(props) {
     super(props);
 
     this.sidebarData = props.sidebarData;
   }
+
+  
 
   render() {
     return (

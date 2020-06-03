@@ -1,34 +1,55 @@
-import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAward } from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faAward } from "@fortawesome/free-solid-svg-icons";
+import {BrowserRouter,Switch,Route } from "react-router-dom";
+import Carro from "../proyectos/carro";
+import NotFound from "../Notfound";
+import Proyectos from "./Proyectos";
 
-
-class Awards extends Component {
+/*
+class Awards extends React.Component{
   constructor(props) {
     super(props);
+    this.state={
+      select: ''
+    }
+  }
+  
+  handleSelect = () =>{
 
-    this.awards = props.awards;
   }
 
+
   render() {
-    return(
-      <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-        <div className="w-100">
-          <h2 className="mb-5">Proyectos</h2>
-          <ul className="fa-ul mb-0">
-          {
-            this.awards.map((data, index) => (
-              <li key={index}>
-                <FontAwesomeIcon icon={faAward} color="#ffc107" />
-                <span className="ml-2"> {data.awardDetail} </span>
-              </li>
-            ))
-          }
-          </ul>
-        </div>
-      </section>
+    return (
+      <div>
+        <SelectProyect 
+        select={this.state.select}
+        />
+      </div>
     );
   }
 }
+
+const SelectProyect = (props) =>{
+  let status = props.select
+  switch (status) {
+    case 'carro':
+      return <Carro />;
+    default:
+      return <Proyectos />;
+  }
+}
+*/
+
+const Awards = () => (
+    <BrowserRouter>    
+      <Switch>
+          <Route exact path="/" component={Proyectos} />                          
+          <Route exact path="/carro" component={Carro} />                          
+          <Route component={NotFound} />
+      </Switch>
+    </BrowserRouter>
+)
 
 export default Awards;

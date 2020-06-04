@@ -33,7 +33,7 @@ class Awards extends React.Component{
     if (parseInt(this.state.status)===2) {
       return <PuntoVenta />
     } 
-    if (parseInt(this.state.status)===0) {
+    if (parseInt(this.state.status)===3) {
       return <Hielipau />
     }     
     else {

@@ -6,11 +6,13 @@ import Carro from "../proyectos/carro";
 import PuntoVenta from '../proyectos/puntoVenta';
 import Hielipau from '../proyectos/Heilipau';
 import MoreMx from '../proyectos/moremx';
+import FlaskGraficas from '../proyectos/flask_graficas';
 //assests of the proyects
 import carro1 from '../Assets/carrojap2/uno.jpg';
 import pv1 from '../Assets/punto de venta/dospv.png';
 import Hieli1 from '../Assets/Hielipau/hielipaulogo.png';
 import moremx1 from '../Assets/moremxApp/more.jpg'
+import fg1 from '../Assets/flask_graficas/fg3.png'
 
 
 class Awards extends React.Component{
@@ -40,6 +42,9 @@ class Awards extends React.Component{
     }     
     if (parseInt(this.state.status)===4) {
       return <MoreMx />
+    }     
+    if (parseInt(this.state.status)===5) {
+      return <FlaskGraficas />
     }     
     else {
       return(
@@ -90,10 +95,11 @@ class Awards extends React.Component{
           <div className="row row-cols-1 row-cols-md-3">
             <div className="col mb-4">
               <div className="card">
-                <img src="..." className="card-img-top" alt="..." />
+                <img src={fg1} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 className="card-title">Graficar datos (mineria de datos)</h5>
+                  <p className="card-text">En este proyecto fue para el tec que fue el proyecto final de la materia de mineria de datos con python usando todas las librerias que utilizamos</p>
+                  <button onClick={() => this.handleStatus(5)} className="btn btn-primary">ver</button>
                 </div>
               </div>
             </div>

@@ -5,10 +5,12 @@ import React from 'react';
 import Carro from "../proyectos/carro";
 import PuntoVenta from '../proyectos/puntoVenta';
 import Hielipau from '../proyectos/Heilipau';
+import MoreMx from '../proyectos/moremx';
 //assests of the proyects
 import carro1 from '../Assets/carrojap2/uno.jpg';
 import pv1 from '../Assets/punto de venta/dospv.png';
 import Hieli1 from '../Assets/Hielipau/hielipaulogo.png';
+import moremx1 from '../Assets/moremxApp/more.jpg'
 
 
 class Awards extends React.Component{
@@ -35,6 +37,9 @@ class Awards extends React.Component{
     } 
     if (parseInt(this.state.status)===3) {
       return <Hielipau />
+    }     
+    if (parseInt(this.state.status)===4) {
+      return <MoreMx />
     }     
     else {
       return(
@@ -73,10 +78,11 @@ class Awards extends React.Component{
             </div>
             <div className="col mb-4">
               <div className="card">
-                <img src="..." className="card-img-top" alt="..." />
+                <img src={moremx1} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 className="card-title">moremx App</h5>
+                  <p className="card-text">esta es una app para un tienda de ropa en linea que actualmete se encuentra en desarrollo junto con un equipo de programadores</p>
+                  <button onClick={() => this.handleStatus(4)} className="btn btn-primary">ver</button>
                 </div>
               </div>
             </div>

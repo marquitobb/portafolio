@@ -8,7 +8,7 @@ import Hielipau from '../proyectos/Heilipau';
 import MoreMx from '../proyectos/moremx';
 import FlaskGraficas from '../proyectos/flask_graficas';
 //assests of the proyects
-import carro1 from '../Assets/carrojap2/uno.jpg';
+import carro1 from '../Assets/carrojap2/chido.jpg';
 import pv1 from '../Assets/punto de venta/dospv.png';
 import Hieli1 from '../Assets/Hielipau/hielipaulogo.png';
 import moremx1 from '../Assets/moremxApp/more.jpg'
@@ -57,7 +57,7 @@ class Awards extends React.Component{
           <div className="row row-cols-1 row-cols-md-3">
           <div className="col mb-4">
             <div className="card">
-              <img src={carro1} className="card-img-top" alt="..." />
+              <img src={carro1} height="50%" width="50%" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Carro bot</h5>
                 <p className="card-text">Este fue un proyecto escolar en el cual teniamos que hacer un carro DIY con arduino que recogiera un objeto siguiendo colores</p>

@@ -13,6 +13,7 @@ import pv1 from '../Assets/punto de venta/dospv.png';
 import Hieli1 from '../Assets/Hielipau/hielipaulogo.png';
 import moremx1 from '../Assets/moremxApp/more.jpg'
 import fg1 from '../Assets/flask_graficas/fg3.png'
+import Pepelis from '../proyectos/pepelis';
 
 
 class Awards extends React.Component{
@@ -45,6 +46,9 @@ class Awards extends React.Component{
     }     
     if (parseInt(this.state.status)===5) {
       return <FlaskGraficas />
+    }     
+    if (parseInt(this.state.status)===6) {
+      return <Pepelis />
     }     
     else {
       return(
@@ -105,10 +109,11 @@ class Awards extends React.Component{
             </div>
             <div className="col mb-4">
               <div className="card">
-                <img src="..." className="card-img-top" alt="..." />
+                <img src="https://github.com/marquitobb/pepelis/raw/master/img/pplis1.png" className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 className="card-title">Pepelis</h5>
+                  <p className="card-text">esta fue una pequeña pagina web que permitia descargar peliculas del cine desde mega (un poco ilegal) para generar dinero con anuncios</p>
+                  <button onClick={() => this.handleStatus(6)} className="btn btn-primary">ver</button>
                 </div>
               </div>
             </div>

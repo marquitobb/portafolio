@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import image from '../Assets/mc.jpg';
-import image from '../Assets/jeje.png';
+import image from '../Assets/dos.jpg';
 
 
 class Sidebar extends Component {

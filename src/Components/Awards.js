@@ -16,6 +16,7 @@ import moremx1 from '../Assets/moremxApp/more.jpg'
 import fg1 from '../Assets/flask_graficas/fg3.png'
 import tv1 from '../Assets/tuvaro/logo.png'
 import Tuvaro from '../proyectos/tuvaro';
+import Telegram from '../proyectos/telegram';
 
 
 
@@ -55,6 +56,9 @@ class Awards extends React.Component{
     }     
     if (parseInt(this.state.status)===7) {
       return <Tuvaro />
+    }     
+    if (parseInt(this.state.status)===8) {
+      return <Telegram />
     }     
     else {
       return(
@@ -135,10 +139,11 @@ class Awards extends React.Component{
             </div>
             <div className="col mb-4">
               <div className="card">
-                <img src="..." className="card-img-top" alt="..." />
+                <img src="https://www.hwlibre.com/wp-content/uploads/2015/03/telegram.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 className="card-title">raspberry con telegram</h5>
+                  <p className="card-text">Este proyecto fue escolar de la materia de sistemas operativos donde se usaba una raspberry vinculada a telegram para realizar deifrentes cosas de domotica</p>
+                  <button onClick={() => this.handleStatus(8)} className="btn btn-primary">ver</button>
                 </div>
               </div>
             </div>

@@ -44,6 +44,9 @@ class Sidebar extends Component {
             <li className="nav-item">
               <a className="nav-link js-scroll-trigger" href="#awards">Proyectos</a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger" href="#cv">Descargar CV</a>
+            </li>
           </ul>
         </div>
       </nav>

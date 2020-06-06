@@ -24,7 +24,7 @@ class Education extends Component {
                   <span className="text-primary">{data.fromDate} - {data.toDate}</span>
                   <br></br>
                   <br></br>
-                  <img width="250px" height="150px" src={data.imagen} alt='...' />
+                  <img width="250px" height="150px" src="https://lh3.googleusercontent.com/proxy/Iy7zWBngl2zzCfKgfyjUeJBulCZPEQuxoDgLoAbaJltmM4WQ-nV0Aw4PTpVdeQisdWmjWq7xhfOI8w2B25RMfGCh09Kc" alt='...' />
                 </div>
               </div>
             ))

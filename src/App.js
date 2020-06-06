@@ -8,6 +8,7 @@ import Interests from './Components/Interests';
 import Awards from './Components/Awards';
 import profileData from './profileData.json';
 import ReactGA from 'react-ga';
+import Cv from './Components/cv';
 
 class App extends Component {
   constructor(props) {
@@ -41,6 +42,8 @@ class App extends Component {
           <Interests interests={this.state.interests} />
           <hr className="m-0" />
           <Awards awards={this.state.awards} />
+          <hr className="m-0" />
+          <Cv />
         </div>
       </div>
     );

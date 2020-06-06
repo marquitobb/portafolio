@@ -7,13 +7,16 @@ import PuntoVenta from '../proyectos/puntoVenta';
 import Hielipau from '../proyectos/Heilipau';
 import MoreMx from '../proyectos/moremx';
 import FlaskGraficas from '../proyectos/flask_graficas';
+import Pepelis from '../proyectos/pepelis';
 //assests of the proyects
 import carro1 from '../Assets/carrojap2/chido.jpg';
 import pv1 from '../Assets/punto de venta/dospv.png';
 import Hieli1 from '../Assets/Hielipau/hielipaulogo.png';
 import moremx1 from '../Assets/moremxApp/more.jpg'
 import fg1 from '../Assets/flask_graficas/fg3.png'
-import Pepelis from '../proyectos/pepelis';
+import tv1 from '../Assets/tuvaro/logo.png'
+import Tuvaro from '../proyectos/tuvaro';
+
 
 
 class Awards extends React.Component{
@@ -49,6 +52,9 @@ class Awards extends React.Component{
     }     
     if (parseInt(this.state.status)===6) {
       return <Pepelis />
+    }     
+    if (parseInt(this.state.status)===7) {
+      return <Tuvaro />
     }     
     else {
       return(
@@ -119,10 +125,11 @@ class Awards extends React.Component{
             </div>
             <div className="col mb-4">
               <div className="card">
-                <img src="..." className="card-img-top" alt="..." />
+                <img src={tv1} height="50%" width="50%" className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <h5 className="card-title">tuvaro</h5>
+                  <p className="card-text">Esta es una pequeña app para IOS y android que lleva un control de tus gastos y yo la uso siempre pero todavia no sale a produccion</p>
+                  <button onClick={() => this.handleStatus(7)} className="btn btn-primary">ver</button>
                 </div>
               </div>
             </div>

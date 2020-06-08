@@ -7,6 +7,7 @@ import { faRedoAlt } from "@fortawesome/free-solid-svg-icons";
 import fg1 from "../Assets/flask_graficas/fg1.png";
 import fg2 from "../Assets/flask_graficas/fg2.png";
 import fg3 from "../Assets/flask_graficas/fg3.png";
+import tec from "../Assets/teclogo.gif";
 
 class FlaskGraficas extends React.Component {
   constructor(props) {
@@ -137,7 +138,7 @@ class FlaskGraficas extends React.Component {
                 <div className="card-body">
                   <img
                     className="img-fluid rounded"
-                    src="https://lh3.googleusercontent.com/proxy/Iy7zWBngl2zzCfKgfyjUeJBulCZPEQuxoDgLoAbaJltmM4WQ-nV0Aw4PTpVdeQisdWmjWq7xhfOI8w2B25RMfGCh09Kc"
+                    src={tec}
                     alt=""
                   />                  
                 </div>

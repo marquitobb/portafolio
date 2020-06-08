@@ -7,6 +7,7 @@ import { faRedoAlt } from "@fortawesome/free-solid-svg-icons";
 import des3 from "../Assets/carrojap2/test2.gif";
 import des from "../Assets/carrojap2/demo.gif";
 import logo from "../Assets/carrojap2/jeje.jpg";
+import tec from "../Assets/teclogo.gif";
 
 class Carro extends React.Component {
   constructor(props) {
@@ -136,7 +137,7 @@ class Carro extends React.Component {
                 <div className="card-body">
                   <img
                     className="img-fluid rounded"
-                    src="https://lh3.googleusercontent.com/proxy/Iy7zWBngl2zzCfKgfyjUeJBulCZPEQuxoDgLoAbaJltmM4WQ-nV0Aw4PTpVdeQisdWmjWq7xhfOI8w2B25RMfGCh09Kc"
+                    src={tec}
                     alt=""
                   />
                 </div>

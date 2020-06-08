@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRedoAlt } from "@fortawesome/free-solid-svg-icons";
 //asets
 import t1 from "../Assets/telegram/telegram.png";
+import tec from "../Assets/teclogo.gif";
 class Telegram extends React.Component {
   constructor(props) {
     super(props);
@@ -111,7 +112,7 @@ class Telegram extends React.Component {
                 <div className="card-body">
                   <img
                     className="img-fluid rounded"
-                    src="https://lh3.googleusercontent.com/proxy/Iy7zWBngl2zzCfKgfyjUeJBulCZPEQuxoDgLoAbaJltmM4WQ-nV0Aw4PTpVdeQisdWmjWq7xhfOI8w2B25RMfGCh09Kc"
+                    src={tec}
                     alt=""
                   />                  
                 </div>

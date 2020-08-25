@@ -23,7 +23,8 @@ class Cv extends React.Component{
 
     picale = () =>{
       try {
-        const url = "https://firebasestorage.googleapis.com/v0/b/deploy-react-8cb9c.appspot.com/o/cv%2Fcv2.pdf?alt=media&token=679c3d38-448b-4b92-85a5-8c43bc5255f3"
+        //const url = "https://firebasestorage.googleapis.com/v0/b/deploy-react-8cb9c.appspot.com/o/cv%2Fcv2.pdf?alt=media&token=679c3d38-448b-4b92-85a5-8c43bc5255f3"
+        const url = "https://firebasestorage.googleapis.com/v0/b/addphotos-44b02.appspot.com/o/cv%2FCurri%CC%81culo.pdf?alt=media&token=975270dc-b123-44e6-bf6f-0a4dcc449c53"
         //window.open(`${url}`)
         var win = window.open(`${url}`,'_blank')
         win.focus();

@@ -3,7 +3,7 @@
 		"firstName": "Marco",
 		"lastName": "cobian",
 		"phoneNumber": "312-138-5579",
-		"bio": "Soy un desarrollador jr que me apasiona programar y aprender cosas nuevas, actualmente trabajo para cura deuda, como desarrollador web ejerciendo el rol de desarrollador full stack en la empresa.",
+		"bio": "Soy un desarrollador jr que me apasiona programar y aprender cosas nuevas, actualmente trabajo para Cura deuda, como desarrollador web ejerciendo el rol de dev full stack en la empresa.",
 		"bio2": "aun que manejo varias tecnologías mi stack más fuerte es con JS ya sea node js para el back-end y para el front-end react js, aunque también laravel cuando es necesario lo uso.",
 		"email": "maca9608@gmail.com",
     	"linkedin": "https://www.linkedin.com/in/marco-antonio-cobi%C3%A1n-avalos-92466a184/",
@@ -13,11 +13,10 @@
 	
 	},
 	"experience": [
-		
 		{
 			"position": "Desarrollador web (servicio social)",
 			"organization": "complejo administrativo de colima",
-			"aboutWork": " estuve desarrollando páginas web para el gobierno de colima en PHP con su framework codeigniter",
+			"aboutWork": " estuve desarrollando páginas web para el gobierno de colima en PHP con su framework codeigniter, donde aprendi a trabajo en equipo responsabilidades y como usar github en grandes proyectos en equipo con seguridad",
 			"fromDate": "enero 2019",
 			"toDate": "mayo 2019",
 			"imagen":"https://seeklogo.com/images/C/colima-gobierno-logo-2E248E4B51-seeklogo.com.png"
@@ -25,7 +24,7 @@
 		{
 			"position": "Desarrollador movil",
 			"organization": "Chofer pro",
-			"aboutWork": "Fui contratado para hacer aplicaciones móviles desarrolladas con java para android y también rest api desarrolladas en php para consumir tanto móviles como web, una vez que pase el (examen para entrar) que era desarrollar una app sencilla con servicio de mapas. Pero estuve un periodo corto ya que solo fue durante las vacaciones de junio porque aún tenía que volver a la escuela y estuve integrado en un proyecto para una empresa colimense, la cual aprendí un poco mas de como trabajar en equipo con herramientas como “GIT” ya que es un control de versiones que desde que salio lo he usado en todos mis proyectos y también “slack” para comunicación de equipo y todo bajo la metodología de “SCRUM” ya que dejaban tareas en un tablero como “trello” y las teníamos que completar, y esa fue parte de mi experiencia.",
+			"aboutWork": "Fui contratado para hacer aplicaciones móviles desarrolladas con java para android y también rest api desarrolladas en php/node para consumir tanto móviles como web, una vez que pase el (examen para entrar) que era desarrollar una app sencilla con servicio de mapas. Pero estuve un periodo corto ya que solo fue durante las vacaciones de junio porque aún tenía que volver a la escuela y estuve integrado en un proyecto para una empresa colimense, la cual aprendí un poco mas de como trabajar en equipo con herramientas como “GIT” ya que es un control de versiones que desde que salio lo he usado en todos mis proyectos y también “slack” para comunicación de equipo y todo bajo la metodología de “SCRUM” ya que dejaban tareas en un tablero como “trello” y las teníamos que completar, y esa fue parte de mi experiencia.",
 			"fromDate": "junio - julio 2019",
 			"toDate": "julio 2019",
 			"imagen": "https://firebasestorage.googleapis.com/v0/b/deploy-react-8cb9c.appspot.com/o/mc%2Fcontrato.jpg?alt=media&token=1b85a135-4bef-47b9-b86e-251bb1907812"
@@ -33,16 +32,16 @@
 		{
 			"position": "desarrollador móvil y web",
 			"organization": "Freelancer",
-			"aboutWork": "trabajaba como freelancer en proyectos locales como en proyectos remotos en la app de “upwork”, desarrollando puntos de ventas para empresas colimenses como páginas web para registro de inventarios y apps e-commerce.",
+			"aboutWork": "trabaje como freelancer en proyectos locales como en proyectos remotos en la app de “upwork”, desarrollando puntos de ventas para empresas colimenses como páginas web para registro de inventarios y apps e-commerce.",
 			"fromDate": "enero 2020",
 			"toDate": "junio 2020",
 			"imagen":"https://i.pinimg.com/originals/6b/5b/b0/6b5bb0db4a1dd7fe7568ddc0ff4afdb6.png"
 		},
 		{
-			"position": "desarrollador web full stack",
+			"position": "desarrollador web full stack ",
 			"organization": "Cura deuda",
-			"aboutWork": "Actualmente me encuentro terminando mi carrera en la ing. sistemas computacionales a falta de mi residencia profesional para titularse, ya con mis materias concluidas y trabajando como freelancer en proyectos locales como en proyectos remotos en la app de “upwork”, desarrollando puntos de ventas para empresas colimenses como páginas web para registro de inventarios y apps e-commerce.",
-			"fromDate": "enero 2020",
+			"aboutWork": "Actualmente me encuentro trabajando para la empresa de Cura deuda a distancia, donde estoy dentro del equipo de IT con diferentes roles como desarrollador. Aunque aún no soy senior llevó a cargo cosas importantes de la empresa ya que rapido me adapto a las necesidades de desarrollo y al trabajo en equipo con metodologías ágiles como es la scrum, como apasionado a la tecnología trato de siempre estar aprendiendo nuevas cosas y nuevos roles como de desarrollo web, móvil y hasta un poco devOps, pero siempre teniendo en cuenta que mi fuerte es el backend.",
+			"fromDate": "junio 2020",
 			"toDate": "presente",
 			"imagen":"data:image/png;base64,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"
 		}
@@ -50,7 +49,7 @@
 	"education": [{
 			"university": "Instituto Tecnológico de Colima",
 			"degree": "Ingeniería en sistemas computacionales",
-			"gpa": "Me encuentro finalizando mi carrera en la Ingenieria de sistemas computacionales a falta de titularme por medio de la residencia en alguna empresa",
+			"gpa": "Soy Ingeniero en sistemas recien egresado.",
 			"fromDate": "agosto 2015",
 			"toDate": "junio 2020",
 			"imagen": "https://lh3.googleusercontent.com/proxy/SyeO-wnxrsIsBXVN_TT728Q9nm7PZ9ckm5KGgtkhV_iaBrVFNcZn8KJDrghdF9alb1wCVsEnP7XnXb-jLrV0c1hhKMgv"			
@@ -58,15 +57,12 @@
 	],
 	"skills": [{
 			"name": "HTML5 CSS3"
-		},		
+		},
 		{
 			"name": "Javascript"
 		},
 		{
 			"name": "PHP"
-		},
-		{
-			"name": "Codeigniter"
 		},
 		{
 			"name": "JAVA"
@@ -91,9 +87,6 @@
 		},
 		{
 			"name": "Mongodb"
-		},
-		{
-			"name": "redis"
 		},
 		{
 			"name": "GIT"

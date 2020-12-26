@@ -139,17 +139,17 @@ class Awards extends React.Component{
             </div>
             <div className="col mb-4">
               <div className="card">
-                <img src="https://www.hwlibre.com/wp-content/uploads/2015/03/telegram.jpg" className="card-img-top" alt="..." />
+                <img src="https://www.curadeuda.com/wp-content/uploads/2019/02/logo_curadeuda.png" className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">raspberry con telegram</h5>
-                  <p className="card-text">Este proyecto fue escolar de la materia de sistemas operativos donde se usaba una raspberry vinculada a telegram para realizar deifrentes cosas de domotica</p>
+                  <h5 className="card-title">Cura deuda digital</h5>
+                  <p className="card-text">Este proyecto fue el primero, mas grande y uno de los mas importantes que he desarrollado dentro de la empresa, en el cual se automatiza todas la acciones que llevaba la empresa por teléfono y manual</p>
                   <button onClick={() => this.handleStatus(8)} className="btn btn-primary">ver</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      )      
+      )
     }
   }
 
